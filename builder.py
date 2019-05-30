@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# When should we use Builder Design Pattern?
+#   When we have more than three 'static variations' in a object creation
+#   When it is necessary to isolate creational details
+#   When the object creation is complex or the code is unreadable
 class Customer:
     class CustomerBuilder:
         def __init__(self):
@@ -68,12 +72,8 @@ class MyCustomer:
 
     def __str__(self):
         return self.name
-    
 
-# When should we use Builder Design Pattern?
-#   When we have more than three 'static variations' in a object creation
-#   When it is necessary to isolate creational details
-#   When the object creation is complex or the code is unreadable
+    
 def main():
     # Simple creation, forget about kwargs in this example
     a = Customer('Bruno', 32, 'Male', 'Paulista Avenue, 1290', 'Sao Paulo')
