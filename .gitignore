@@ -1,0 +1,10 @@
+.classpath
+.project
+.settings
+.idea
+.vscode
+*.pyc
+*.class
+target
+bin
+*.log

@@ -1,2 +1,5 @@
-# dont-panic
-The Hitchhiker's Guide to the Code!!!!!
+# Don't Panic!!!!
+
+This is the **The Hitchhiker's Guide to the Code**!!!!!
+
+Have some fun!!!!
