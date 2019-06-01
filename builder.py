@@ -87,6 +87,15 @@ def main():
     # Builder Design Pattern could be unnecessary in a python environment
     f = MyCustomer(name='Alexandre', age=32, gender='Male')
 
+    # Using dict and kwargs
+    g = Customer(**{
+        "name": "Renan",
+        "age": 27,
+        "gender": "Male",
+        "street": "Houston Street, 777",
+        "city": "New York"
+    })
+
     # However, in Java is helpful
 
     print(a)
@@ -95,6 +104,7 @@ def main():
     print(d)
     print(e)
     print(f)
+    print(g)
 
 if __name__ == '__main__':
     main()
