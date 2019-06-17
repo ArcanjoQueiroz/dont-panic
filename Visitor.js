@@ -80,5 +80,5 @@ let g = new Tree(nodes, edges);
 // Visitor Design Pattern
 g.visit(n => console.log(n.name));
 
-// Finding accordting to the condition
+// Finding according to the condition
 console.log(g.find(n => n.name == 'Node 5'));
