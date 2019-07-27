@@ -14,6 +14,7 @@ public class Adapter {
 
   interface Bird {
     public void fly();
+
     public void makeNoise();
   }
 
@@ -34,7 +35,7 @@ public class Adapter {
     public void makeNoise() {
       for (int i = 0; i < 5; i++) {
         this.duck.squeak();
-      }      
+      }
     }
 
     public Duck getDuck() {
